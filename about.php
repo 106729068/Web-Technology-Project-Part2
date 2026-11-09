@@ -5,7 +5,6 @@ include "header.inc";
 ?>
 
 <main>
-    <!--Group Information-->
     <!--About Content-->
     <section class="about-title">
     <div class="about-title-box">

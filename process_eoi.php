@@ -1,5 +1,4 @@
 <?php
-
 require_once "settings.php";
 
 $required_fields = ["jrefer", "fname", "lname", "dob", "address",

@@ -7,7 +7,7 @@ $pwd = "";
 $sql_db= "ecopower";
 
 //Connect to MySQL database
-$conn = mysqli_connect($host, $user, $pwd, $sql_db);
+$conn = @mysqli_connect($host, $user, $pwd, $sql_db);
 
 //Check database connection
 if (!$conn) {
